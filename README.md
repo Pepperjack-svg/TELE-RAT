@@ -15,7 +15,7 @@ To run the `example.py` script, follow these steps:
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
    ```shell
-   https://github.com/Pepperjack-svg/TELE-RAT.git
+   git clone https://github.com/Pepperjack-svg/TELE-RAT.git
    ```
 
 2. **Navigate to the Repository**: Change your current directory to the cloned repository:
