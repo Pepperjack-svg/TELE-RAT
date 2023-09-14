@@ -15,39 +15,15 @@ To run the `example.py` script, follow these steps:
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
    ```shell
-   git clone https://github.com/Pepperjack-svg/TELE-RAT.git
+   - git clone https://github.com/Pepperjack-svg/TELE-RAT.git
+   - cd TELE-RAT
+   - python telerat.py
    ```
-
-2. **Navigate to the Repository**: Change your current directory to the cloned repository:
-
-   ```shell
-   cd TELE-RAT
-   ```
-
-3. **Run the Script**: Execute the Python script using the following command:
-
-   ```shell
-   python telerat.py
-   ```
-
-   This will run the script, and you should see the messages displayed in the console.
+This will run the script, and you should see the messages displayed in the console.
 
 ## Dependencies
 
 This Python script has no external dependencies. It should run on any system with a Python interpreter installed.
-
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature`.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your branch to your forked repository.
-5. Create a pull request to the main repository's `main` branch.
-
-Please ensure your code adheres to the project's coding standards and includes appropriate documentation.
 
 ## Contact
 
