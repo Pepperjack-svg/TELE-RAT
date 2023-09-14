@@ -27,7 +27,7 @@ To run the `example.py` script, follow these steps:
 3. **Run the Script**: Execute the Python script using the following command:
 
    ```shell
-   python main.py
+   python telerat.py
    ```
 
    This will run the script, and you should see the messages displayed in the console.
