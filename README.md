@@ -15,19 +15,19 @@ To run the `example.py` script, follow these steps:
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
    ```shell
-   git clone https://github.com/your-username/your-repo.git
+   https://github.com/Pepperjack-svg/TELE-RAT.git
    ```
 
 2. **Navigate to the Repository**: Change your current directory to the cloned repository:
 
    ```shell
-   cd your-repo
+   cd TELE-RAT
    ```
 
 3. **Run the Script**: Execute the Python script using the following command:
 
    ```shell
-   python example.py
+   python main.py
    ```
 
    This will run the script, and you should see the messages displayed in the console.
