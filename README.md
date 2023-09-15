@@ -28,6 +28,6 @@ This Python script has no external dependencies. It should run on any system wit
 
 ## Contact
 
-If you have any questions or need further assistance, feel free to contact the project maintainers at [KISHORE.S](mailto:your-kishore.cyberhakz@gmail.com).
+If you have any questions or need further assistance, feel free to contact the project maintainers at [KISHORE.S](mailto:kishore.cyberhakz@gmail.com).
 
 Thank you for using this Python code, and we hope you find it helpful!
