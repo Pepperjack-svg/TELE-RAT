@@ -5,7 +5,7 @@ try:
     from Crypto.Cipher import AES
     from datetime import timezone, datetime, timedelta
 except:
-    os.system('pip install requirements.txt')
+    os.system('pip install -r requirements.txt')
 
 bot_token = input("ENTER THE BOT TOKEN HER:-  ")
 bot = telebot.TeleBot(token=bot_token,parse_mode=None)
