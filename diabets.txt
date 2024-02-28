@@ -1,0 +1,40 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate random samples from a normal distribution
+mean = 0
+std_dev = 1
+num_samples = 1000
+samples = np.random.normal(mean, std_dev, num_samples)
+
+# Plot histogram
+plt.hist(samples, bins=30, density=True, alpha=0.6, color='g')
+
+# Plot probability density function
+xmin, xmax = plt.xlim()
+x = np.linspace(xmin, xmax, 100)
+p = np.exp(-0.5 * ((x - mean) / std_dev) ** 2) / (std_dev * np.sqrt(2 * np.pi))
+plt.plot(x, p, 'k', linewidth=2)
+
+plt.title('Histogram of a Normal Distribution')
+plt.xlabel('Value')
+plt.ylabel('Probability Density')
+plt.show()
+
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate data for contour plot
+x = np.linspace(-3.0, 3.0, 100)
+y = np.linspace(-3.0, 3.0, 100)
+X, Y = np.meshgrid(x, y)
+Z = np.exp(-0.5 * (X**2 + Y**2))
+
+# Plot contour plot
+plt.contour(X, Y, Z)
+plt.title('Contour Plot')
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.show()
